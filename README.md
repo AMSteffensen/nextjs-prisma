@@ -6,7 +6,11 @@ tags:
   - prisma
   - postgresql
   - typescript
+  - GitPod
 ---
+
+Deployed to:
+https://nextjs-prisma-production-df5f.up.railway.app/
 
 # NextJS Prisma Example
 

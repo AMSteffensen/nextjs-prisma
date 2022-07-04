@@ -9,7 +9,9 @@
     "migrate:dev": "prisma migrate dev --preview-feature",
     "migrate:deploy": "prisma migrate deploy --preview-feature",
     "migrate:status": "prisma migrate status --preview-feature",
-    "generate": "prisma generate"
+    "generate": "prisma generate",
+    "run:prod": "railway run yarn dev",
+    "deploy:prod": "railway up"
   },
   "dependencies": {
     "@prisma/client": "2.30.0",
